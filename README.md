@@ -10,3 +10,7 @@ Step2
 ```
 %cd vllm-dynamic-sparsity
 ```
+Step3 install local version and skip the kernel compile(Wheel file)
+```
+!VLLM_USE_PRECOMPILED=1 pip install -e .
+```
